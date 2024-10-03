@@ -10,7 +10,7 @@ export default function Login() {
 
   const handleLogin = () => {
     // Simulação de login
-    if (email === 'admin@example.com' && password === 'senha') {
+    if (email === 'abcd@example.com' && password === 'senha123') {
       router.push('/'); // Redireciona para a página inicial
     } else {
       setError('E-mail ou senha incorretos'); // Mensagem de erro
